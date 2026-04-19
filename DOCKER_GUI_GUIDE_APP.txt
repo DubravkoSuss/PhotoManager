@@ -1,0 +1,15 @@
+Docker GUI usage (VNC)
+=======================
+
+1) Build and start:
+   docker compose up --build
+
+2) Open the web VNC client:
+   http://localhost:6080/vnc.html
+
+3) In the container shell, run:
+   /app/build/bin/PhotoManager
+
+Notes:
+- Uses Xvfb + XFCE + noVNC for GUI.
+- If you want to use raw VNC client, connect to localhost:5900.

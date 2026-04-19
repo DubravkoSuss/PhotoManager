@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  photomanager:
+    build: .
+    container_name: photomanager
+    ports:
+      - "6080:6080"
+      - "5900:5900"
